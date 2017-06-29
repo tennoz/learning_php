@@ -6,7 +6,7 @@
   </head>
   <body>
     <h1>
-      This is a heading
+      This is an h1 heading
     </h1>
   </body>
 </html>
