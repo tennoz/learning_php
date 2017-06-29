@@ -5,6 +5,8 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>This is a heading</h1>
+    <h1>
+      This is an h1 heading
+    </h1>
   </body>
 </html>
