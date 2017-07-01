@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Document</title>
-  </head>
-  <body>
-    <ul>
-      <li><a href="/controllers/about.php">About us</a></li>
-      <li><a href="/controllers/contact.php">Contact us</a></li>
-
-    </ul>
+<?php require ('partials/head.php'); ?>
     <ul>
       <?php foreach ($tasks as $task) : ?>
         <li>
@@ -23,5 +12,4 @@
         </li>
       <?php endforeach; ?>
     </ul>
-  </body>
-</html>
+<?php require ('partials/footer.php'); ?>
