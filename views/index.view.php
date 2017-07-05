@@ -1,6 +1,8 @@
 <?php require ('partials/head.php'); ?>
 
-
+<?php foreach ($users as $user) : ?>
+    <li><?= $user->names; ?></li>
+<?php endforeach; ?>
 
   <h1>Submit your name</h1>
 
